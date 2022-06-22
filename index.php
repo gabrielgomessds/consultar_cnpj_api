@@ -17,7 +17,7 @@
         </form>
    <p style="font-style: italic;padding-top:10px;">Você só pode requisitar 50 CNPJ</p>
 
-   <?php if(isset($dados)):?>
+   <?php if(isset($dados['CNPJ'])):?>
         <table class="table">
         <thead>
             <th>Nome da Empresa</th>
@@ -35,8 +35,21 @@
         </tbody>
         
         </table>
-       
+
+    <?php elseif(isset($dados)):?>
+        <h2 style="color:red;margin-top: 13px;font-style:italic;"> <?=$dados?> </h2>
+        
+    
     <?php endif;?>
     </div>
+
+    <script src="https://unpkg.com/imask"></script>
+    <script>
+        var element = document.querySelector('.search-input');
+        var maskOptions = {
+            mask: '00.000.000/0000-00'
+        };
+        var mask = IMask(element, maskOptions);
+    </script>
 </body>
 </html>
