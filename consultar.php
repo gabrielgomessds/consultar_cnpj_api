@@ -15,15 +15,10 @@ $cnpj = $_POST['cnpj'];
 $resultado = $obSpeedio->consultarCnpj($cnpj);
 
 
-//Verifica o resultado da consulta
-
-if(empty($resultado)){
-    die('Problemas ao consultar o CNPJ');
-}
 
 //Verifica o Erro da requisição
 if(isset($resultado['error'])){
-    die($resultado['error']);
+    $resultado = "Erro: ".$resultado['error'];
 }
 
 echo $view->renderizarHtml('index.php', [
