@@ -1,0 +1,8 @@
+{
+    "name": "gabrielgomes/api_cnpj",
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }
+    }
+}
