@@ -1,6 +1,6 @@
 # Consultando CNPJ usando API do Speedio
 
-<h2>Como usar: </h2><br/>
+<h2>Como usar: </h2>
 Configurações basicas para rodar o projeto:
 <ol>
   <li>Ter intaldo o PHP 7.4</li>
