@@ -2,9 +2,11 @@
 
 <h2>Como usar: </h2><br/>
 Configurações basicas para rodar o projeto:
-- PHP 7.2 ou maior
-- Xampp
-- Composer
+<ol>
+  <li>Ter intaldo o PHP 7.4</li>
+  <li>Ter intaldo o Composer</li>
+  <li>Ter intaldo o Xampp</li>
+</ol>
 
 Baixe o projeto rode o comando <b>composer install</b> em seu terminal na pasta do projeto,
 abra-o e pode pesquisar pelo CNPJ. Infelizmente a Speedio só oferece 50 requisições por dia.
