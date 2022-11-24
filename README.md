@@ -1,5 +1,6 @@
 # Consultando CNPJ usando API do Speedio
 
+<h2>Como usar: </h2><br/>
 Configurações basicas para rodar o projeto:
 - PHP 7.2 ou maior
 - Xampp
