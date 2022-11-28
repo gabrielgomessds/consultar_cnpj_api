@@ -1,15 +1,34 @@
 # Consultando CNPJ usando API do Speedio
 
-<h2>Como usar: </h2>
+<h3>:mega: Sobre o projeto: </h3>
+O projeto foi criado para buscar CNPJs de empresas e trazer suas respectivas informações, como: nome, status, descrição.
+
+<h3>:pushpin: Objetivo: </h3>
+Aprender a usar API´s consumindo-as e tranzendo seus dados.
+
+<h3>:computer: Tecnologias usadas: </h3>
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>PHP</li>
+</ol>
+
+
+<h3>:dart: Como usar:</h3>
 Configurações basicas para rodar o projeto:
 <ol>
-  <li>Ter intaldo o PHP 7.4</li>
+  <li>Ter intaldo o PHP 7.3</li>
   <li>Ter intaldo o Composer</li>
   <li>Ter intaldo o Xampp</li>
 </ol>
 
 Baixe o projeto rode o comando <b>composer install</b> em seu terminal na pasta do projeto,
 abra-o e pode pesquisar pelo CNPJ. Infelizmente a Speedio só oferece 50 requisições por dia.
+
+<h3>:wrench: Funcionalidades: </h3>
+Buscar dados da API
+
+<h3>:camera: Imagens do Projeto:</h3>
 
 Insira o CNPJ e clique no botão buscar:![tela 001](https://user-images.githubusercontent.com/65027607/187443691-f3e946bc-0840-4731-90be-f6d0872434e2.png)
 
